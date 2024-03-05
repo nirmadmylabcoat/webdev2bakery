@@ -131,9 +131,6 @@ img {
   left: 0;
   background-color: transparent;
   z-index: var(--z-fixed);
-  padding: 10px 0;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
 }
 
 .nav{
@@ -755,6 +752,11 @@ img {
 
   .nav{
     height: calc(var(--header-height)+2rem);
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     
   }
   .nav__toggle,
